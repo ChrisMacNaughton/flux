@@ -1,0 +1,15 @@
+[package]
+name = "flux"
+version = "3.0.1"
+authors = ["Chris MacNaughton <chmacnaughton@gmail.com>","Chris Holcombe <xfactor973@gmail.com>"]
+repository = "https://git.cmacinfo.com/chris/flux.git"
+homepage = "https://git.cmacinfo.com/chris/flux"
+description = "Flux is a client library to query InfluxDB"
+license = "MIT/Apache-2.0"
+
+[dependencies]
+hyper = "~0.9"
+# serde = "~0.7"
+# serde_json = "~0.7"
+json = "~0.7"
+log = "~0.3"
